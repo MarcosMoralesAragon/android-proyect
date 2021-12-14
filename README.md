@@ -10,3 +10,15 @@ Yushin manager es una aplicación de gestión de usuarios orientada hacia mi clu
 
 ## Funcionamiento
 
+La aplicación viene provista de datos para que se pueda testear aunque si desea crearse un usuario vacío puede hacerlo.
+
+Si nos vamos al registro nos saldran los campos para rellenear, el campo usuario sera como se referira hacia nosotros la aplicación apartir de ahora internamente
+
+Para tener acceso al usuario cargado de datos deberá introducir los siguientes datos : 
+
+|            |Correo                           |Contraseña                                |
+|------------|-------------------------------------|-------------------------------------|
+|x			   |`prueba2@mail.com` |`123456` |
+
+
+1. Cuando vamos a crear un alumno tenemos que introducir el nombre del centro, para esto se recomienda o crear un centro que conozcamos o listar antes los cursos que tenemos disponibles ( si nos encontramos en el por defecto )
