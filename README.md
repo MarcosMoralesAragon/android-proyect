@@ -31,7 +31,7 @@ Cuando vamos a crear un alumno tenemos que introducir el nombre del centro, para
 
 ## ER
 
-![inicio](/capturas/diagrama-er.png)
+![inicio](/capturas/diagrama.png)
 
 ## Capturas
 ### Login
