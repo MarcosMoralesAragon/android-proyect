@@ -31,6 +31,22 @@ Cuando vamos a crear un alumno tenemos que introducir el nombre del centro, para
 
 ## ER
 
-
+![inicio](/capturas/Diagrama ER.png)
 
 ## Capturas
+### Login
+![inicio](/capturas/inicio-login.png)
+### Registro
+![inicio](/capturas/inicio-registro.png)
+### Home
+![inicio](/capturas/inicio-home.png)
+### Crear alumno
+![inicio](/capturas/crear-alumno.png)
+### Crear centro
+![inicio](/capturas/crear-centro.png)
+### Listar centro
+![inicio](/capturas/lista-centros.png)
+### Listar alumnos
+![inicio](/capturas/lista-alumnos.png)
+### Editar alumnos
+![inicio](/capturas/editar.png)
