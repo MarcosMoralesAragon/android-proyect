@@ -109,13 +109,27 @@ class MainActivity : AppCompatActivity() {
 
     fun iniciarBaseDeDatos(){
         db?.alumnoDao()?.addAlumno(
-            Alumno(1,"David", "Amarillo", "noTiene", 1, 1)
+            Alumno(1,"David", "Amarillo", "noTiene", 1, 1),
+            Alumno(1,"Marcos", "1 Dan", "noTiene", 1, 1),
+            Alumno(1,"Alvaro", "Verde", "noTiene", 1, 1),
+            Alumno(1,"Sergio", "Amarillo", "noTiene", 1, 1),
+            Alumno(1,"Gonzalo", "Blanco", "noTiene", 1, 1),
+            Alumno(1,"Noel", "Blanco", "noTiene", 1, 1),
+            Alumno(1,"Fernando", "Blanco", "noTiene", 1, 1),
+            Alumno(1,"Alumno fake 1", "Blanco", "noTiene", 2, 1),
+            Alumno(1,"Alumno fake 2", "Blanco", "noTiene", 2, 1),
+            Alumno(1,"Alumno fake 3", "Blanco", "noTiene", 3, 1),
+            Alumno(1,"Alumno fake 4", "Blanco", "noTiene", 3, 1),
+            Alumno(1,"Alumno fake 5", "Blanco", "noTiene", 4, 1),
         )
         db?.profesorDao()?.addProfesor(
             Profesores(1, "Miguel", "prueba2@mail.com")
         )
         db?.centroDao()?.addCentro(
             Centros(1,"Victoria Kent", "no tiene", "no tiene direccion", 1),
+            Centros(2,"Torremolinos", "no tiene", "no tiene direccion", 1),
+            Centros(3,"Dojo 3", "no tiene", "no tiene direccion", 1),
+            Centros(4,"Dojo 4", "no tiene", "no tiene direccion", 1)
         )
     }
 }

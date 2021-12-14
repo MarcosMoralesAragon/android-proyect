@@ -8,6 +8,7 @@ import com.example.yushin_manager.databinding.ActivityCrearCentroBinding
 import com.example.yushin_manager.entidades.Centros
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class CrearCentroActivity : AppCompatActivity() {
@@ -45,6 +46,8 @@ class CrearCentroActivity : AppCompatActivity() {
     fun guardarCentroABaseDeDatos(nombreCentro : String, direccion : String){
 
         db = AppDataBase.getAppDatabase(this)
+
+        auth = Firebase.auth
 
         var correoUsuario = auth.currentUser?.email
         var profesor = db!!.profesorDao().getProfesor(correoUsuario!!)
