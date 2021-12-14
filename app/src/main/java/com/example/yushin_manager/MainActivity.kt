@@ -52,6 +52,10 @@ class MainActivity : AppCompatActivity() {
 
         db = AppDataBase.getAppDatabase(this)
 
+        if ( db == null){
+            iniciarBaseDeDatos()
+        }
+
         auth = Firebase.auth
 
         var emailUser = auth.currentUser?.email.toString().trim()
