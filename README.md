@@ -16,7 +16,7 @@ Si nos vamos al registro nos saldran los campos para rellenear, el campo usuario
 
 Para tener acceso al usuario cargado de datos deberá introducir los siguientes datos : 
 
-|                   |Correo              |Contraseña                           |
+|        x          |Correo              |Contraseña                           |
 |-------------------|--------------------|-------------------------------------|
 |Usuario recomendado|`prueba2@mail.com`  |`123456`                             |
 
