@@ -20,5 +20,6 @@ Para tener acceso al usuario cargado de datos deberá introducir los siguientes 
 |-------------------|--------------------|-------------------------------------|
 |Usuario recomendado|`prueba2@mail.com`  |`123456`                             |
 
+## *Información a tener en cuenta*
 
 1. Cuando vamos a crear un alumno tenemos que introducir el nombre del centro, para esto se recomienda o crear un centro que conozcamos o listar antes los cursos que tenemos disponibles ( si nos encontramos en el por defecto )
