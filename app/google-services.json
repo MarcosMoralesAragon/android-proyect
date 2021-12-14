@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "37356491286",
+    "project_id": "yushin-manager",
+    "storage_bucket": "yushin-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37356491286:android:535c5eeffd686c25d7db37",
+        "android_client_info": {
+          "package_name": "com.example.yushin_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37356491286-80f93jsta9gl7gaoae942732n6obhqed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yushin_manager",
+            "certificate_hash": "79c061f82a32658342ef44ca0efaa670dd1475b6"
+          }
+        },
+        {
+          "client_id": "37356491286-g6t9pv7nttc1q34ta8m0oh5rb3lk97if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_C2nXOavxD8IUwn2BBwzFucAcwyRx3JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37356491286-g6t9pv7nttc1q34ta8m0oh5rb3lk97if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

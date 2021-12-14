@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Yushin Manager</string>
+
+    <!-- Strings login -->
+    <string name="logIn_layoutWelcomeMsg">Inicio de sesión</string>
+    <string name="campoCorreo">Correo</string>
+    <string name="campoPassword">Contraseña</string>
+
+    <!-- Strings register -->
+    <string name="campoUsuario">Usuario</string>
+    <string name="correoElectronico">Correo electronico</string>
+    <string name="registroBoton">Registrarme</string>
+    <string name="cancelarBotron">Cancelar</string>
+
+    <!-- String main activity -->
+
+    <string name="bienvenida">Bienvenido de vuelta :</string>
+    <string name="nombreUsuario">nombreUsuario</string>
+    <string name="botonCrear">Añadir alumno</string>
+    <string name="botonLista">Listar alumnos</string>
+    <string name="botonCrearCentro">Añadir centro</string>
+    <string name="botonListaCentro">Listar  centros</string>
+
+    <!-- String menu -->
+    <string name="cerrarSesion">Cerrar sesion</string>
+
+    <!-- String crear alumno -->
+    <string name="nuevoAlumno">Crear nuevo alumno</string>
+    <string name="campoNombreAlumno">Nombre alumno</string>
+    <string name="campoCinturon">Cinturon alumno</string>
+    <string name="campoCentro">Centro del alumno</string>
+
+    <!-- String crear centro -->
+    <string name="nuevoCentro">Crear nuevo centro</string>
+    <string name="campoNombreCentro">Nombre centro</string>
+    <string name="campoDireccion">Dirección del centro</string>
+
+</resources>

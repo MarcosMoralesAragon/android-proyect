@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/karateDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/karatedo" />
+
+    <ImageView
+        android:id="@+id/cuadradoInicio"
+        android:layout_width="356dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/karateDo"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/cuadroinicio" />
+
+    <TextView
+        android:id="@+id/textoBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenida"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/cuadradoInicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cuadradoInicio"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+        android:id="@+id/nombreUsuario"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:text="@string/nombreUsuario"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cuadradoInicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="@+id/cuadradoInicio"
+        app:layout_constraintTop_toTopOf="@+id/cuadradoInicio"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871">
+
+        <Button
+            android:id="@+id/botonAddAlumno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:backgroundTint="@color/white"
+            android:text="@string/botonCrear"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/botonListaNinos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/botonLista"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/botonAddCentro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:backgroundTint="@color/white"
+            android:text="@string/botonCrearCentro"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/botonListaCentro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/botonListaCentro"
+            android:textColor="@color/black" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
