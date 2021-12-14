@@ -16,9 +16,9 @@ Si nos vamos al registro nos saldran los campos para rellenear, el campo usuario
 
 Para tener acceso al usuario cargado de datos deberá introducir los siguientes datos : 
 
-|            |Correo                           |Contraseña                                |
-|------------|-------------------------------------|-------------------------------------|
-|x			   |`prueba2@mail.com` |`123456` |
+|                   |Correo              |Contraseña                           |
+|-------------------|--------------------|-------------------------------------|
+|Usuario recomendado|`prueba2@mail.com`  |`123456`                             |
 
 
 1. Cuando vamos a crear un alumno tenemos que introducir el nombre del centro, para esto se recomienda o crear un centro que conozcamos o listar antes los cursos que tenemos disponibles ( si nos encontramos en el por defecto )
